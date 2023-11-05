@@ -5,7 +5,7 @@ function GetInfo() {
    
 if(newName.value.length > 0){
 
-fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appid=f0ba153c6ed888e6b3b95c452616b1d0')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'KEY_VALUE')
 .then(response => response.json())
 .then(data => {
     
