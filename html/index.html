@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Weather forecasting</title>
+
+</head>
+<body>
+        <div id="inputField">
+            <input type="text" id="cityInput" placeholder="City name">
+            <button type="button" onclick="GetInfo()">Find out</button>        
+        </div>
+
+        <div id="root">
+            <table>
+                <tr>
+                    <td>
+                            <p class="weather" id="day1"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+                            <strong><p class="minValues" id="day1Min">Loading...</p></strong>
+                            <strong><p class="maxValues" id="day1Max">Loading...</p></strong>
+                            <STRONG><p id="day1Avg">Loading...</p></STRONG>
+                    </td>
+                    <td>
+                        
+                            <p class="weather" id="day2"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+                            <strong><p class="minValues" id="day2Min">Loading...</p></strong>
+                            <strong><p class="maxValues" id="day2Max">Loading...</p></strong>
+                            <strong><p id="day2Avg">Loading...</p></strong>
+                    </td>
+                    <td>
+                        
+                            <p class="weather" id="day3"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+                            <strong><p class="minValues" id="day3Min">Loading...</p></strong>
+                            <strong><p class="maxValues" id="day3Max">Loading...</p></strong>
+                            <strong><p id="day3Avg">Loading...</p></strong>
+                    
+                    </td>
+                    <td>
+                        
+                            <p class="weather" id="day4"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+                            <strong><p class="minValues" id="day4Min">Loading...</p></strong>
+                            <strong><p class="maxValues" id="day4Max">Loading...</p></strong>
+                            <strong><p id="day4Avg">Loading...</p></strong>
+                    
+                    </td>
+                    <td>
+                            <p class="weather" id="day5"></p>
+                            <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+                            <strong><p class="minValues" id="day5Min">Loading...</p></strong>
+                            <strong><p class="maxValues" id="day5Max">Loading...</p></strong>
+                            <strong><p id="day5Avg">Loading...</p></strong>
+                    </td>
+                </tr>
+             </table>
+        </div>   
+
+        <script src="../script/main.js"></script>
+</body>
+</html>
